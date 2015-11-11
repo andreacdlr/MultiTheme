@@ -1,1 +1,238 @@
 /* Ingresa tu código CSS aquí */
+body,html{
+	height: 100%;
+	min-height: 100%;
+}
+
+body{
+	position: relative;
+}
+
+nav{
+	padding: 4px;
+}
+.hero-slider{
+	padding-top: 90px;
+}
+#scroll{
+	    position: fixed;
+    margin-bottom: 40px;
+    background-color: #fff;
+    z-index: 1;
+    width: 100%;
+}
+.navbar{
+	margin-bottom: 0;
+}
+.navbar-brand{
+
+	overflow: hidden;
+	height: 80px;
+	padding: 8px;
+
+}
+.navbar-toggle {
+	margin-top: 23px;
+}
+.navbar-nav{
+	margin-top: 15px;
+}
+
+.navbar-nav li a{
+	color: #000;
+	font-weight: 600;
+}
+
+.navbar-nav li a:hover{
+   background-color: #4dacd7;
+   color: #fff;
+}
+
+.navbar-nav li a.active{
+	border-top:2px solid #4dacd7;
+}
+
+.navbar-toggle .icon-bar{
+	background-color: #4dacd7;
+	width: 25px;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.owl-pagination{
+	display: ;
+}
+
+
+.owl-theme .owl-controls .owl-buttons div{
+	position: absolute;
+}
+
+.carrousel-content{
+   position: absolute;
+   margin: 6% 0 0 13%;
+   color: #fff;
+
+}
+
+.carrousel-content h2{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+
+}
+
+.carrousel-content span{
+	color: #4dacd7;
+}
+
+button{
+	    background-color: #4dacd7;
+    border: none;
+    padding: 2%;
+    font-weight: 700;
+    margin-top: 3%;
+    color: #fff;
+}
+hr{
+	margin: 0;
+}
+.portfolio{
+	background-color: #f6f6f6;
+	text-align: center;
+	padding-top: 5%;
+
+}
+ h2{
+	text-transform: uppercase;
+	font-weight: 900;
+	padding-top: 2%;
+	
+}
+
+.circle{
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	background-color:  #4dacd7;
+	border:3px solid white;
+	display: inline-block;
+	position: relative;
+	
+}
+.line{
+	    width: 29px;
+    height: 1px;
+    background-color: #D6D4D4;
+    display: inline-block;
+    margin-bottom: 9px;
+    
+}
+ p{
+	font-size: 0.9em;
+	padding: 2% 0 6% 0;
+	margin: 0;
+}
+
+.about{
+   text-align: center;
+   padding: 5% 0;
+}
+.about .row{
+	padding: 0 12%;
+}
+.about h4{
+	padding: 2%;
+	border-bottom: 2px solid  #4dacd7;
+	font-weight: 900;
+	text-align: left;
+}
+.about .col-md-6 p{
+	text-align: left;
+
+}
+video{
+	max-width: 100%;
+	height: auto !important;
+}
+
+.about i{
+	
+	color: #4dacd7; 
+
+}
+
+
+.about button{
+   float: left;
+}
+.portfolio ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 50px;
+    display: inline-block;
+}
+.portfolio ul > li {
+    float: left;
+    display: block;
+}
+.portfolio ul > li:first-child a {
+    border-radius: 4px 0 0 4px;
+}
+
+.portfolio ul > li a:hover, .portfolio ul > li a.active {
+    background: #45aed6;
+    color: #fff;
+    box-shadow: 0 -3px 0 0 #318daf inset;
+    -webkit-box-shadow: 0 -3px 0 0 #318daf inset;
+}
+.portfolio ul > li a {
+    display: block;
+    padding: 7px 15px;
+    background: #e5e5e5;
+    color: #64686d;
+    position: relative;
+}
+
+.cta{
+	text-align: center;
+	
+    background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top, #1e5799 0%, #2aa1dd 50%, #73c5d6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #1e5799 0%,#2aa1dd 50%,#73c5d6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #1e5799 0%,#2aa1dd 50%,#73c5d6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#73c5d6',GradientType=0 ); /* IE6-9 */
+color: #fff;
+padding: 3% 0 0 0;
+
+}
+.contact{
+	position: relative;
+    overflow: hidden;
+}
+footer{
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    background: #2e2e2e;
+}
+
+footer a{
+	color: #fff;
+}
+
+footer .social-icons {
+	float: right;
+}
+footer ul > li {
+    display: inline-block;
+    margin: 0 7.5px;
+}
+.owl-buttons{
+	display: none;
+}
